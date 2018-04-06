@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: abattenburg/netlify-vue-boilerplate
+  branch: master # Branch to update
+
+publish_mode: editorial_workflow
+media_folder: "static/images/"
