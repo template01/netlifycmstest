@@ -1,18 +1,15 @@
 module.exports = {
   content: {
     permalink: ':slug',
-    routes: [
-      {
-        path: '/_content',
-        method: 'get'
-      }
+    page: '/_content',
+    generate: [ // for static build
+      'get', 'getAll'
     ],
     isPost: false
   },
-
   api: {
     baseURL: process.env.NODE_ENV === 'production'
       ? 'http://localhost:3000'
-      : 'https://heuristic-kalam-9c1b36.netlify.com'
+      : 'http://localhost:3000'
   }
 }

@@ -23,7 +23,7 @@ module.exports = {
     }
   },
   modules: [
-    // ['nuxtent']
+    'nuxtent'
   ],
   loading: { color: '#3B8070' }
 }

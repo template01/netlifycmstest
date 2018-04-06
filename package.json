@@ -1,13 +1,13 @@
 {
-  "name": "nuxtent2",
+  "name": "mynuxtent",
   "version": "1.0.0",
   "description": "Nuxt.js Content Site",
   "author": "",
   "private": true,
   "dependencies": {
-    "@nuxtjs/axios": "latest",
-    "nuxt": "1.0.0-rc3",
-    "nuxtent": "latest"
+    "nuxtent": "latest",
+    "nuxt": "latest",
+    "@nuxtjs/axios": "latest"
   },
   "scripts": {
     "dev": "nuxt",

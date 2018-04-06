@@ -1,12 +1,9 @@
 <template>
   <section class="home-container">
     <div>
-      <h2 class="home-slogan">
-        Seamlessly use content files in your Nuxt.js sites.
-      </h2>
       <div class="home-links">
-        <nuxt-link to="/hello-world" class="button--green">See HELLO First Post</nuxt-link>
-        <nuxt-link to="/first" class="button--green">See Your First Post</nuxt-link>
+        <nuxt-link to="/blog/hello-world" class="button--green">See HELLO First Post</nuxt-link>
+        <nuxt-link to="/blog/first" class="button--green">See Your First Post</nuxt-link>
       </div>
     </div>
   </section>

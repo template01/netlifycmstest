@@ -9,7 +9,7 @@ media_folder: "static/images/"
 collections:
 - label: "Blog"
   name: "blog"
-  folder: "content/_posts/blog"
+  folder: "content/posts/blog"
   create: true
   fields:
     - {label: "Title", name: "title", widget: "string"}
